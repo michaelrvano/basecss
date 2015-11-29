@@ -179,14 +179,49 @@ img.limit {max-width:180px;}
 
 
 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes mymove {
-	from {right: 0;}
-	to {right:100%;}
+
+
+
+
+/******************************************************
+	$MEDIA QUERIES
+******************************************************/
+
+/* === Large Desktops === */
+@media (min-width: 1200px) {
 }
 
-/* Standard syntax */
-@keyframes mymove {
-	from {right: 0;}
-	to {right:100%;}
+
+
+
+/* === Medium Desktops === */
+@media (max-width: 1199px) {
+}
+
+
+
+
+/* === Medium Devices === */
+@media (max-width: 991px) {
+}
+
+
+
+
+/* === Larger Than Small Devices === */
+@media (min-width: 768px) {
+}
+
+
+
+
+/* === Small Devices === */
+@media (max-width: 767px) {
+}
+
+
+
+
+/* === iPhone Level Width === */
+@media (max-width: 479px) {
 }
